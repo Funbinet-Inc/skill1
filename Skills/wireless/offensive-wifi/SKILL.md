@@ -342,4 +342,4 @@ hashcat -m 22000 hash.hc22000 wordlist.txt -r best64.rule
 - IEEE 802.11-2020 (combined spec including KRACK mitigations)
 - WPA3 Spec / Wi-Fi Alliance: dragonblood.net for vuln tracking
 - hcxtools / hashcat WPA modes: docs at hashcat.net
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-wifi

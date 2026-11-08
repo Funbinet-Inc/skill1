@@ -1,9 +1,14 @@
+---
+name: offensive-bug-identification
+description: "Systematic bug identification methodology: source code review patterns, black-box testing strategies, taint analysis, dangerous function hunting, data flow tracing, and automated scanning setup. Use for code audits, bug bounty triage, or building vulnerability identification pipelines."
+---
+
 # SKILL: Bug Identification
 
 ## Metadata
 - **Skill Name**: bug-identification
 - **Folder**: offensive-bug-identification
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/bug-identification.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/fuzzing/offensive-bug-identification
 
 ## Description
 Systematic bug identification methodology: source code review patterns, black-box testing strategies, taint analysis, dangerous function hunting, data flow tracing, and automated scanning setup. Use for code audits, bug bounty triage, or building vulnerability identification pipelines.

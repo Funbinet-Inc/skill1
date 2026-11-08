@@ -343,4 +343,4 @@ ECR/ACR/Artifact Registry — if you have push perms on a tag in use by producti
 - HackTricks Cloud — ongoing reference for newest paths
 - "Pacu" framework docs — pacu.aws.cloud
 - MITRE ATT&CK Cloud Matrix
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/cloud.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/cloud/offensive-cloud

@@ -1,9 +1,14 @@
+---
+name: offensive-xxe
+description: "XML External Entity injection testing checklist: classic XXE, blind XXE (out-of-band), XXE via file upload (SVG/docx), XXE in SOAP/REST, error-based XXE, XInclude attacks, and XXE filter bypass. Use for web app XXE testing and bug bounty."
+---
+
 # SKILL: XML External Entity (XXE) Injection
 
 ## Metadata
 - **Skill Name**: xxe
 - **Folder**: offensive-xxe
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/xxe.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/web/offensive-xxe
 
 ## Description
 XML External Entity injection testing checklist: classic XXE, blind XXE (out-of-band), XXE via file upload (SVG/docx), XXE in SOAP/REST, error-based XXE, XInclude attacks, and XXE filter bypass. Use for web app XXE testing and bug bounty.

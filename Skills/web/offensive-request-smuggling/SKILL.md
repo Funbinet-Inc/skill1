@@ -1,9 +1,14 @@
+---
+name: offensive-request-smuggling
+description: "HTTP request smuggling checklist: CL.TE, TE.CL, TE.TE variants, detection with timing and differential responses, WAF bypass, cache poisoning, credential hijacking, and request smuggling via HTTP/2. Use when testing reverse proxy/load balancer configurations."
+---
+
 # SKILL: HTTP Request Smuggling
 
 ## Metadata
 - **Skill Name**: request-smuggling
 - **Folder**: offensive-request-smuggling
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/req-smuggle.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/web/offensive-request-smuggling
 
 ## Description
 HTTP request smuggling checklist: CL.TE, TE.CL, TE.TE variants, detection with timing and differential responses, WAF bypass, cache poisoning, credential hijacking, and request smuggling via HTTP/2. Use when testing reverse proxy/load balancer configurations.

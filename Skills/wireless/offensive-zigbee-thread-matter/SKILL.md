@@ -157,4 +157,4 @@ python z3sec_inter_pan.py --command "join_network" --target <addr>
 - "Zigbee Insecurity" research (CON Black Hat talks)
 - Thread spec: threadgroup.org/support
 - Matter / CSA spec: csa-iot.org/all-solutions/matter
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-zigbee-thread-matter

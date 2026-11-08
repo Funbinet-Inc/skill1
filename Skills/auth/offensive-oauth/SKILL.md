@@ -1,9 +1,14 @@
+---
+name: offensive-oauth
+description: "OAuth 2.0 attack checklist: authorization code interception, redirect_uri bypass, CSRF on OAuth flow, state parameter abuse, open redirector chaining, token leakage via Referer, PKCE bypass, and scope escalation. Use when testing OAuth implementations in web apps or bug bounty."
+---
+
 # SKILL: OAuth Security Testing
 
 ## Metadata
 - **Skill Name**: oauth-attacks
 - **Folder**: offensive-oauth
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/oauth.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/auth/offensive-oauth
 
 ## Description
 OAuth 2.0 attack checklist: authorization code interception, redirect_uri bypass, CSRF on OAuth flow, state parameter abuse, open redirector chaining, token leakage via Referer, PKCE bypass, and scope escalation. Use when testing OAuth implementations in web apps or bug bounty.

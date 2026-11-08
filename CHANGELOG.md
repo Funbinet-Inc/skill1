@@ -1,8 +1,16 @@
 # Changelog
 
-All notable changes to `claude-red` are documented here. The library follows a phased roadmap (see [README.md](README.md#roadmap)). Versions follow [Semantic Versioning](https://semver.org/) where breaking changes mean skill renames, removals, or category restructures.
+All notable changes to `funbinet-skills` are documented here. The library follows a phased roadmap (see [README.md](README.md#roadmap)). Versions follow [Semantic Versioning](https://semver.org/) where breaking changes mean skill renames, removals, or category restructures.
 
 ## [Unreleased]
+
+### Changed
+
+- Rebranded the library as `funbinet-skills` and repointed all repository references to [Funbinet-Inc/skill1](https://github.com/Funbinet-Inc/skill1).
+- `install.sh` rewritten as a multi-platform installer: detects Claude Code, OpenCode, Pi, Antigravity, Codex, GitHub Copilot, and Gemini CLI, then installs skills into each platform's official personal or project skills directory.
+- `claude-skills.json` manifest renamed to `skills.json`.
+
+## [0.3.0]
 
 ### Changed
 
@@ -76,5 +84,5 @@ All notable changes to `claude-red` are documented here. The library follows a p
 
 ### Added
 
-- Initial library of 37 offensive security skills, derived from the SnailSploit / Sahar Shlichov offensive checklist collection
+- Initial library of 37 offensive security skills, derived from an open offensive security checklist collection
 - Categories covered: web app, auth, infrastructure & binary, recon, fuzzing, AI security, utility

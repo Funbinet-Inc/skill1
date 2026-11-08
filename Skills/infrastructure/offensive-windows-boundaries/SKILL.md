@@ -1,9 +1,14 @@
+---
+name: offensive-windows-boundaries
+description: "Windows security boundary taxonomy and attack surface enumeration: kernel/user boundary, sandbox boundaries (LPAC, AppContainer), COM/RPC boundaries, hypervisor boundary, trust level transitions. Use when planning privilege escalation paths, sandbox escapes, or understanding Windows security architecture."
+---
+
 # SKILL: Week 7: Defeating Windows Security Boundaries
 
 ## Metadata
 - **Skill Name**: windows-boundaries
 - **Folder**: offensive-windows-boundaries
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/7-windows-boundaries.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/infrastructure/offensive-windows-boundaries
 
 ## Description
 Windows security boundary taxonomy and attack surface enumeration: kernel/user boundary, sandbox boundaries (LPAC, AppContainer), COM/RPC boundaries, hypervisor boundary, trust level transitions. Use when planning privilege escalation paths, sandbox escapes, or understanding Windows security architecture.

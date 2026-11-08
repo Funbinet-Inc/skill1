@@ -173,4 +173,4 @@ hashcat -m 22000 hash.hc22000 -a 3 ?d?d?d?d?d?d?d?d?d?d
 - hcxtools: github.com/ZerBea/hcxtools
 - ZerBea PMKID research (original 2018 disclosure)
 - 802.11i-2004 (WPA2 spec)
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-wpa2-psk

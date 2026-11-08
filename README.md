@@ -1,17 +1,17 @@
-![claude-red banner](/assets/banner.png)
+![funbinet-skills banner](/assets/banner.png)
 
 <div align="center">
 
-# claude-red
+# funbinet-skills
 
-**Offensive security skills for Claude — drop-in `SKILL.md` files that turn Claude into a context-aware red team operator.**
+**Offensive security skills for AI coding agents — drop-in `SKILL.md` files that turn any agent into a context-aware red team operator.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-78-red.svg)](#skill-index)
 [![Categories](https://img.shields.io/badge/categories-23-orange.svg)](#categories)
-[![Stars](https://img.shields.io/github/stars/SnailSploit/claude-red?style=social)](https://github.com/SnailSploit/claude-red)
-[![Forks](https://img.shields.io/github/forks/SnailSploit/claude-red?style=social)](https://github.com/SnailSploit/claude-red/network/members)
-<a href="https://trendshift.io/repositories/40579?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-40579" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/40579/weekly?language=Python" alt="SnailSploit%2FClaude-Red | Trendshift" width="250" height="55"/></a>
+[![Stars](https://img.shields.io/github/stars/Funbinet-Inc/skill1?style=social)](https://github.com/Funbinet-Inc/skill1)
+[![Forks](https://img.shields.io/github/forks/Funbinet-Inc/skill1?style=social)](https://github.com/Funbinet-Inc/skill1/network/members)
+
 
 [Overview](#overview) &bull; [Quickstart](#quickstart) &bull; [Categories](#categories) &bull; [Skill Index](#skill-index) &bull; [Roadmap](#roadmap) &bull; [Contributing](#contributing)
 
@@ -21,51 +21,64 @@
 
 ## Overview
 
-`claude-red` is a curated library of offensive security skills for the [Claude Skills system](https://docs.claude.com). Each skill is a structured `SKILL.md` file that primes Claude with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse.
+`funbinet-skills` is a curated library of offensive security skills for the open [Agent Skills standard](https://agentskills.io). Each skill is a structured `SKILL.md` file that primes your agent with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse.
 
-Drop a skill into your Claude environment and it behaves like a domain specialist: it knows the techniques, the tooling, the edge cases, and the escalation paths. Skills load on demand based on conversational triggers — you don't pay context for skills you aren't using.
+Drop a skill into your agent's skills directory and it behaves like a domain specialist: it knows the techniques, the tooling, the edge cases, and the escalation paths. Skills load on demand based on conversational triggers — you don't pay context for skills you aren't using.
 
 **Use cases:** authorized red team engagements, bug bounty triage, security research, CTF preparation, operator training, and methodical attack surface exploration.
 
-**for our actual research using skills -> https://snailsploit.com**
 ---
 
 ## Quickstart
 
-### Claude Skills System (Recommended)
+### Install Script (Recommended)
+
+The installer detects which AI coding agents are installed on your machine and places the skills into each platform's official skills directory — no orphan folders, no duplicate installs.
 
 ```bash
-git clone https://github.com/SnailSploit/claude-red ~/.claude/skills/claude-red
+git clone https://github.com/Funbinet-Inc/skill1
+cd skill1
+./install.sh            # interactive: picks up your installed platforms
+./install.sh --all      # install to every detected platform
+./install.sh --list     # show supported platforms and detected install targets
+./install.sh --platform claude,opencode   # specific platforms
+./install.sh --category web              # single category only
+./install.sh --dry-run                   # preview without copying
 ```
 
-Claude auto-loads matching skills based on conversational triggers (e.g., mentioning SQL injection loads `offensive-sqli`).
+Supported platforms: **Claude Code**, **OpenCode**, **Pi**, **Antigravity**, **Codex**, **GitHub Copilot (VS Code / CLI)**, **Gemini CLI**, and the universal `~/.agents/skills` location from the Agent Skills standard.
 
 To install a single category:
 
 ```bash
-git clone --filter=blob:none --sparse https://github.com/SnailSploit/claude-red
-cd claude-red && git sparse-checkout set Skills/web Skills/active-directory
+./install.sh --all --category web
 ```
 
-### Claude Code
+### Manual Install
+
+Skills are plain `SKILL.md` directories following the [Agent Skills standard](https://agentskills.io). Copy (or clone) them into the skills directory your agent reads:
+
+| Platform | Personal (global) | Project (workspace) |
+|---|---|---|
+| Claude Code | `~/.claude/skills` | `.claude/skills` |
+| OpenCode | `~/.config/opencode/skills` | `.opencode/skills` |
+| Pi | `~/.pi/agent/skills` | `.pi/skills` |
+| Antigravity | `~/.gemini/config/skills` | `.agents/skills` |
+| Codex | `~/.agents/skills` | `.agents/skills` |
+| GitHub Copilot | `~/.copilot/skills` | `.github/skills` |
+| Gemini CLI | `~/.gemini/skills` | `.gemini/skills` |
+
+Example — clone into a personal skills directory:
 
 ```bash
-cat Skills/web/offensive-sqli/SKILL.md | claude --system-file -
-
-cat Skills/active-directory/**/SKILL.md | claude --system-file -
+git clone https://github.com/Funbinet-Inc/skill1 ~/.agents/skills/funbinet-skills
 ```
 
-### Claude.ai (Manual)
+Your agent auto-loads matching skills based on conversational triggers (e.g., mentioning SQL injection loads `offensive-sqli`).
 
-Paste the contents of a `SKILL.md` into a Project's system prompt or prepend it to your conversation.
+### Manual Usage
 
-### Install Script
-
-```bash
-./install.sh                           # interactive
-./install.sh --target ~/.claude/skills # explicit target
-./install.sh --category web            # single category
-```
+Paste the contents of a `SKILL.md` into a system prompt or prepend it to your conversation.
 
 ---
 
@@ -372,16 +385,15 @@ Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the skill temp
 
 ## Acknowledgements
 
-- **Author:** [Kai Aizen](https://snailsploit.com) (SnailSploit) — GenAI security research
-- **Original Checklists:** [Sahar Shlichov](https://github.com/sahar042/offensive-checklist) — the offensive checklist collection that many of these skills build on
+- **Maintained by:** Funbinet-Inc
 - **Community:** Pull requests and feedback that keep the library aligned with the evolving threat landscape
 
 ---
 
 <div align="center">
 
-*Give Claude the right skill and it stops being a chatbot — it becomes an operator.*
+*Give your agent the right skill and it stops being a chatbot — it becomes an operator.*
 
-[snailsploit.com](https://snailsploit.com) &bull; [GitHub](https://github.com/SnailSploit) &bull; [Research](https://snailsploit.com/research) &bull; [X](https://x.com/SnailSploit)
+[GitHub](https://github.com/Funbinet-Inc/skill1) &bull; [Issues](https://github.com/Funbinet-Inc/skill1/issues) &bull; [Agent Skills standard](https://agentskills.io)
 
 </div>

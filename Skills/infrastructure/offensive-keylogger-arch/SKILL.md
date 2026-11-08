@@ -1,9 +1,14 @@
+---
+name: offensive-keylogger-arch
+description: "Low-level keylogger architecture design: kernel driver hooks (WH_KEYBOARD_LL, SetWindowsHookEx), ETW-based input capture, user-mode vs kernel-mode approaches, stealth techniques, and data exfiltration. Use for understanding input capture mechanisms, EDR evasion research, or malware architecture analysis."
+---
+
 # SKILL: Novel research
 
 ## Metadata
 - **Skill Name**: keylogger-architecture
 - **Folder**: offensive-keylogger-arch
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/Low-level%20Keylogger%20architecture_.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/infrastructure/offensive-keylogger-arch
 
 ## Description
 Low-level keylogger architecture design: kernel driver hooks (WH_KEYBOARD_LL, SetWindowsHookEx), ETW-based input capture, user-mode vs kernel-mode approaches, stealth techniques, and data exfiltration. Use for understanding input capture mechanisms, EDR evasion research, or malware architecture analysis.

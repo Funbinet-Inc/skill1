@@ -419,4 +419,4 @@ Multiple apps from same vendor share — secrets here cross app boundary.
 - OWASP MASVS — verification standard
 - Frida CodeShare — codeshare.frida.re for ready-to-use hooks
 - mobile-security-framework / MobSF for automated triage
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/mobile.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/mobile/offensive-mobile

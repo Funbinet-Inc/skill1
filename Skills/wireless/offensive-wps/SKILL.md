@@ -163,4 +163,4 @@ sudo reaver -i wlan0mon -b <BSSID> -L -N -d 15 -t 30 -r 3:30 -vv
 - bully: github.com/aanarchyy/bully
 - WPS 2.0 spec (Wi-Fi Alliance)
 - "Pixie Dust Attack" (Bongard, 2014) — original disclosure
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-wps

@@ -191,4 +191,4 @@ jadx -d app_src vendor.apk
 - bettercap BLE module: bettercap.org
 - Bluetooth Core Spec 5.x — Volume 3 (Host) for GATT/SMP
 - "Bluetooth Low Energy Hacking" (Cap Gemini, NCC research)
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-bluetooth-ble

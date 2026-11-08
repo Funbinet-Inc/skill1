@@ -1,9 +1,14 @@
+---
+name: offensive-initial-access
+description: "Initial access techniques checklist: phishing (spear/smishing), credential stuffing, exposed service exploitation, supply chain attacks, watering hole, VPN/RDP brute force, public-facing application exploitation. Maps to MITRE ATT&CK TA0001. Use when planning initial access phases of red team engagements."
+---
+
 # SKILL: Modern Initial Access
 
 ## Metadata
 - **Skill Name**: initial-access
 - **Folder**: offensive-initial-access
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/initial-access.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/infrastructure/offensive-initial-access
 
 ## Description
 Initial access techniques checklist: phishing (spear/smishing), credential stuffing, exposed service exploitation, supply chain attacks, watering hole, VPN/RDP brute force, public-facing application exploitation. Maps to MITRE ATT&CK TA0001. Use when planning initial access phases of red team engagements.

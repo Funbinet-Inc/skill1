@@ -153,4 +153,4 @@ internalblue → log keys → re-pair target
 - KNOB attack: knobattack.com
 - BlueBorne: armis.com/blueborne
 - Bluetooth Core Spec — Volume 2 (BR/EDR Controller)
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-bluetooth-classic

@@ -143,4 +143,4 @@ wireshark cap.pcap   # filter zwave
 - EZ-Wave: github.com/cureHsu/EZ-Wave (HackRF-based)
 - "Z-Force and the Z-Wave Sniffer" — original research
 - Silicon Labs Z-Wave 700-series spec
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-z-wave

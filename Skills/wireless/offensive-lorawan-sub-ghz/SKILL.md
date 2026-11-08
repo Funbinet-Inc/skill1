@@ -179,4 +179,4 @@ gqrx                           # spectrum view to find activity
 - Universal Radio Hacker: github.com/jopohl/urh
 - RollingPwn (KeeLoq research): github.com/AndrewMohawk/RollingPwn
 - LoRaWAN Specification: lora-alliance.org
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-lorawan-sub-ghz

@@ -111,4 +111,4 @@ For each vulnerable CVE:
 - FragAttacks: fragattacks.com (Vanhoef)
 - Original papers: USENIX Security 2017 (KRACK), USENIX Security 2021 (FragAttacks)
 - CISA advisories tracking embedded vendor patches
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-krack-fragattacks

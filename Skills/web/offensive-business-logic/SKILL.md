@@ -395,4 +395,4 @@ Business-logic findings often get downgraded by triagers who don't understand th
 - OWASP WSTG-BUSL — Business Logic Testing chapter
 - PortSwigger Web Security Academy: Business logic vulnerabilities track
 - MITRE ATT&CK: T1539 (Steal Web Session Cookie), T1078 (Valid Accounts) — for chained access
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/business-logic.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/web/offensive-business-logic

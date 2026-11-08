@@ -368,4 +368,4 @@ Use these as starting points; adjust per environment.
 - OWASP Testing Guide — reporting chapter
 - FIRST CVSS v3.1 / v4.0 specifications
 - CREST Cyber Security Incident Response and Penetration Testing reporting standards
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/reporting.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/utility/offensive-reporting

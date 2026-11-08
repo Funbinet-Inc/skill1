@@ -425,4 +425,4 @@ bloodhound-python -d corp.local -u user -p pass -ns dc -c All --zip
 - ADCS: SpecterOps "Certified Pre-Owned" (Schroeder, Christensen)
 - BloodHound: bloodhound.specterops.io
 - Coercion: github.com/p0dalirius/Coercer (unified coercion toolkit)
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/active-directory.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/active-directory/offensive-active-directory

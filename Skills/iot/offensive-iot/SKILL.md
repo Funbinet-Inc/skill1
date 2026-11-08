@@ -432,4 +432,4 @@ For each finding capture:
 - Embedded Security CTF (microcorruption.com) — practice MCU exploitation
 - IoT Hackers Handbook (Aditya Gupta) — canonical methodology
 - CISA ICS-CERT advisory feed
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/iot-embedded.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/iot/offensive-iot

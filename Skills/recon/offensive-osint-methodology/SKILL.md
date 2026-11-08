@@ -1,9 +1,14 @@
+---
+name: offensive-osint-methodology
+description: "Structured OSINT methodology framework: target definition, source selection, collection workflows, data correlation, timeline reconstruction, and reporting. Use to guide systematic OSINT campaigns or teach OSINT methodology."
+---
+
 # SKILL: OSINT Methodology
 
 ## Metadata
 - **Skill Name**: osint-methodology
 - **Folder**: offensive-osint-methodology
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/osint-method.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/recon/offensive-osint-methodology
 
 ## Description
 Structured OSINT methodology framework: target definition, source selection, collection workflows, data correlation, timeline reconstruction, and reporting. Use to guide systematic OSINT campaigns or teach OSINT methodology.

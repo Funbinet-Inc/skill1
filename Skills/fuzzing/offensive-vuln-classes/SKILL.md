@@ -1,9 +1,14 @@
+---
+name: offensive-vuln-classes
+description: "Exploit development curriculum covering core vulnerability classes with real-world CVE case studies: stack/heap buffer overflows, use-after-free, integer overflows, format strings, type confusion, and race conditions. Use when learning or teaching vuln classes, researching specific CVE patterns, or building exploit dev knowledge."
+---
+
 # SKILL: Week 1: Vulnerability Classes with Real-World Examples
 
 ## Metadata
 - **Skill Name**: vulnerability-classes
 - **Folder**: offensive-vuln-classes
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/1-vulnerability-classes.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/fuzzing/offensive-vuln-classes
 
 ## Description
 Exploit development curriculum covering core vulnerability classes with real-world CVE case studies: stack/heap buffer overflows, use-after-free, integer overflows, format strings, type confusion, and race conditions. Use when learning or teaching vuln classes, researching specific CVE patterns, or building exploit dev knowledge.

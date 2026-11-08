@@ -156,4 +156,4 @@ python3 dragontime.py --bssid <BSSID> --iface wlan0mon
 - IEEE 802.11-2020 (combined spec including WPA3)
 - WFA WPA3 Specification
 - hostapd 2.10 release notes
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-wpa3-sae

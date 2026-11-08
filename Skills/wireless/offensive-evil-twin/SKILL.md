@@ -217,4 +217,4 @@ mitmproxy --mode transparent --showhost --ssl-insecure
 - airgeddon: github.com/v1s1t0r1sh3r3/airgeddon
 - KARMA / Mana original talks (DEF CON, Sensepost research)
 - "Probing into the Past" research on PNL exploitation
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-evil-twin

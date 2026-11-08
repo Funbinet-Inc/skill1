@@ -204,4 +204,4 @@ nxc smb <dc> -u <user> -p <pass> -d <domain>
 - asleap: willhackforsushi.com/asleap
 - crack.sh — NetNTLMv1 (MSCHAPv2) rainbow service
 - RFC 3748 (EAP), RFC 5216 (EAP-TLS), RFC 7170 (EAP-TEAP)
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-wpa-enterprise

@@ -1,9 +1,14 @@
+---
+name: offensive-fast-checking
+description: "Speed-optimized offensive checklist for rapid assessment: quick-win vulnerability patterns, fast recon shortcuts, automated scanner configurations, and triage shortcuts. Use for time-boxed assessments, CTF-speed engagements, or initial rapid surface mapping."
+---
+
 # SKILL: Fast Testing Checklist
 
 ## Metadata
 - **Skill Name**: fast-checking
 - **Folder**: offensive-fast-checking
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/fast-checking.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/utility/offensive-fast-checking
 
 ## Description
 Speed-optimized offensive checklist for rapid assessment: quick-win vulnerability patterns, fast recon shortcuts, automated scanner configurations, and triage shortcuts. Use for time-boxed assessments, CTF-speed engagements, or initial rapid surface mapping.

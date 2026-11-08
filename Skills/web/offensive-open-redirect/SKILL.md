@@ -1,9 +1,14 @@
+---
+name: offensive-open-redirect
+description: "Open redirect vulnerability checklist: parameter identification, bypass techniques (URL encoding, double slashes, CRLF injection, protocol handlers), chaining with OAuth/SSRF, and impact escalation paths. Use for web app testing and bug bounty open redirect discovery."
+---
+
 # SKILL: Open Redirect Vulnerabilities
 
 ## Metadata
 - **Skill Name**: open-redirect
 - **Folder**: offensive-open-redirect
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/open-redirect.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/web/offensive-open-redirect
 
 ## Description
 Open redirect vulnerability checklist: parameter identification, bypass techniques (URL encoding, double slashes, CRLF injection, protocol handlers), chaining with OAuth/SSRF, and impact escalation paths. Use for web app testing and bug bounty open redirect discovery.

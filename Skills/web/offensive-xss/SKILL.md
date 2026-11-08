@@ -1,9 +1,14 @@
+---
+name: offensive-xss
+description: "Cross-Site Scripting testing checklist: stored/reflected/DOM/blind XSS discovery, polyglot payloads, CSP bypass, XSS filter bypass, event handler injection, DOM clobbering, mutation XSS, and impact escalation (session hijack, phishing, keylogging). Use for web app XSS testing and bug bounty."
+---
+
 # SKILL: Cross-Site Scripting (XSS)
 
 ## Metadata
 - **Skill Name**: xss
 - **Folder**: offensive-xss
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/xss.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/web/offensive-xss
 
 ## Description
 Cross-Site Scripting testing checklist: stored/reflected/DOM/blind XSS discovery, polyglot payloads, CSP bypass, XSS filter bypass, event handler injection, DOM clobbering, mutation XSS, and impact escalation (session hijack, phishing, keylogging). Use for web app XSS testing and bug bounty.

@@ -1,6 +1,6 @@
 # Security Policy
 
-`claude-red` is an offensive security tooling library. Its content describes attack methodologies for use by authorized red team operators, penetration testers, and security researchers.
+`funbinet-skills` is an offensive security tooling library. Its content describes attack methodologies for use by authorized red team operators, penetration testers, and security researchers.
 
 ## Intended Use
 
@@ -13,11 +13,11 @@ These skills are intended for:
 
 These skills are **not** intended for unauthorized access to systems you do not own or do not have explicit, written permission to test. Misuse may violate computer-misuse laws in your jurisdiction (CFAA in the US, Computer Misuse Act in the UK, equivalent statutes elsewhere).
 
-## Reporting a Vulnerability in claude-red Itself
+## Reporting a Vulnerability in funbinet-skills Itself
 
 If you discover a security issue in this repository — for example a malicious payload accidentally committed, a credential leaked in an example, a typosquat-prone install path, or an unsafe shell command in `install.sh` — please report it privately rather than opening a public issue.
 
-**Contact:** security@snailsploit.com
+**Contact:** Open a private [security advisory](https://github.com/Funbinet-Inc/skill1/security/advisories/new) on this repository.
 
 Please include:
 
@@ -30,7 +30,7 @@ We aim to acknowledge reports within 72 hours and resolve confirmed issues withi
 
 ## Reporting a Vulnerability Found Using This Library
 
-If you discover a vulnerability in a third-party product or service while using `claude-red`'s methodologies, follow that vendor's responsible disclosure process. The [`offensive-reporting`](Skills/utility/offensive-reporting/SKILL.md) skill includes guidance on responsible disclosure, evidence handling, and report writing.
+If you discover a vulnerability in a third-party product or service while using `funbinet-skills`'s methodologies, follow that vendor's responsible disclosure process. The [`offensive-reporting`](Skills/utility/offensive-reporting/SKILL.md) skill includes guidance on responsible disclosure, evidence handling, and report writing.
 
 If the vendor has no published security contact:
 
@@ -41,20 +41,20 @@ If the vendor has no published security contact:
 
 ## Supply Chain Integrity
 
-This repository is signed by SnailSploit. Verify commit signatures with:
+Commits on the main branch are made by the Funbinet-Inc maintainers. Verify commit authorship with:
 
 ```bash
-git log --show-signature
+git log --format='%h %an <%ae>' main
 ```
 
-If you receive a `claude-red` archive from a third party (mirror, pastebin, package manager), verify it against the upstream repository before using.
+If you receive a `funbinet-skills` archive from a third party (mirror, pastebin, package manager), verify it against the upstream repository before using.
 
 ## Scope
 
 | In scope | Out of scope |
 |---|---|
 | Issues in repository content (skills, scripts, install logic) | Vulnerabilities in third-party tools mentioned in skills |
-| Malicious payloads in examples | The Claude platform itself (report to Anthropic) |
+| Malicious payloads in examples | The agent platforms themselves (report to the respective vendor) |
 | Unsafe installation defaults | Bugs in tools you find using this library |
 | Leaked credentials in example traffic | Bugs in your own implementation of techniques described |
 

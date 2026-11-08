@@ -1,9 +1,14 @@
+---
+name: offensive-ssrf
+description: "Server-Side Request Forgery testing checklist: SSRF discovery, blind SSRF with out-of-band, cloud metadata endpoints (AWS/GCP/Azure), SSRF filter bypass techniques (IP encoding, DNS rebinding, redirect chains), and SSRF to RCE escalation. Use for web app SSRF testing and bug bounty."
+---
+
 # SKILL: Server-Side Request Forgery (SSRF)
 
 ## Metadata
 - **Skill Name**: ssrf
 - **Folder**: offensive-ssrf
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/ssrf.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/web/offensive-ssrf
 
 ## Description
 Server-Side Request Forgery testing checklist: SSRF discovery, blind SSRF with out-of-band, cloud metadata endpoints (AWS/GCP/Azure), SSRF filter bypass techniques (IP encoding, DNS rebinding, redirect chains), and SSRF to RCE escalation. Use for web app SSRF testing and bug bounty.

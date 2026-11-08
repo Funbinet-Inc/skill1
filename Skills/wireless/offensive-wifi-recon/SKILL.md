@@ -200,4 +200,4 @@ sudo airodump-ng -c <ch> --bssid <BSSID> -w <name> wlan0mon
 - aircrack-ng documentation: aircrack-ng.org
 - Kismet documentation: kismetwireless.net
 - WIGLE: wigle.net (read the API ToS before automated submissions)
-- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/wireless.md
+- Source: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/wireless/offensive-wifi-recon

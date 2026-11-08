@@ -1,9 +1,14 @@
+---
+name: offensive-fuzzing-course
+description: "Week 2 of the exploit development curriculum. Covers fuzzing methodology: target selection, corpus generation, coverage-guided fuzzing with AFL++/libFuzzer, structured fuzzing, and triage/deduplication. Use when setting up fuzz campaigns, selecting harness strategies, or triaging fuzzer output."
+---
+
 # SKILL: Week 2: Finding Vulnerabilities Through Fuzzing
 
 ## Metadata
 - **Skill Name**: fuzzing-course
 - **Folder**: offensive-fuzzing-course
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/2-fuzzing.md
+- **Source**: https://github.com/Funbinet-Inc/skill1/tree/main/Skills/fuzzing/offensive-fuzzing-course
 
 ## Description
 Week 2 of the exploit development curriculum. Covers fuzzing methodology: target selection, corpus generation, coverage-guided fuzzing with AFL++/libFuzzer, structured fuzzing, and triage/deduplication. Use when setting up fuzz campaigns, selecting harness strategies, or triaging fuzzer output.
